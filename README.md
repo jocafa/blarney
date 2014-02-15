@@ -59,7 +59,9 @@ If you want to reset the seed of an instance you already have, call `ns.sow()` a
   - `lastName()` - returns a random common last name
   - `name()` - returns a random first and last name
   - `jobTitle()` - returns a random job title
-  - `buzzPhrase()` - returns a random web 2.0 business plan... 
+  - `domain()` - returns a random domain name
+  - `email()` - returns a random email address
+  - `buzzPhrase()` - returns a random web 2.0 business plan...
 
 License
 -------
