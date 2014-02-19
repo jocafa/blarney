@@ -180,6 +180,15 @@
     return "" + (this.pick(DATA.buzz.verbs)) + " " + (this.pick(DATA.buzz.adjectives)) + " " + (this.pick(DATA.buzz.nouns));
   };
 
+  // Internet  ------------------------------------------------------------------
+  Blarney.prototype.domain = function() {
+    return "" + (this.word()) + (this.pick(DATA.internet.tlds));
+  };
+
+  Blarney.prototype.email = function() {
+    return "" + (this.name().replace(/\s/g, ".").toLowerCase()) + "@" + (this.domain());
+  };
+
   // Dataset  -----------------------------------------------------------------
   DATA = {
     lipsum: [
