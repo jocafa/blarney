@@ -1,6 +1,6 @@
 {
 	"name": "blarney",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"author": "Josh Faul <josh.faul@gmail.com>",
 	"main": "./blarney",
 	"description": "Create repeatable random information",

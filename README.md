@@ -55,13 +55,17 @@ If you want to reset the seed of an instance you already have, call `ns.sow()` a
   - `sentences(n)` - returns `n` random lipsum sentences, 3 if not specified
 
 ### Miscellaneous
-  - `firstName()` - returns a random common first name
+  - `gender()` - returns 'male' or 'female'
+  - `firstName(gender)` - returns a random common first name, gender is optional
   - `lastName()` - returns a random common last name
-  - `name()` - returns a random first and last name
+  - `name(gender)` - returns a random first and last name, gender is optional
+  - `portrait(gender)` - returns an object containing Flickr short URLs for four images. Keys are `smallSquare`, `largeSquare`, `thumbnail`, and `small`.  The photos are from GregPC's [1000faces1](http://www.flickr.com/photos/gregpc/sets/72157606694597353/) set on Flickr. Special thanks to him for doing all the hard work and allowing us to benefit from it!
   - `jobTitle()` - returns a random job title
-  - `domain()` - returns a random domain name
   - `email()` - returns a random email address
-  - `buzzPhrase()` - returns a random web 2.0 business plan...
+
+### Miscellaneous
+  - `buzzPhrase()` - returns a random web 2.0 business plan... 
+  - `domain()` - returns a random domain name
 
 License
 -------
