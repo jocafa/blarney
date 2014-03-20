@@ -54,7 +54,7 @@ If you want to reset the seed of an instance you already have, call `ns.sow()` a
   - `sentence()` - returns a random lipsum sentence
   - `sentences(n)` - returns `n` random lipsum sentences, 3 if not specified
 
-### Miscellaneous
+### People
   - `gender()` - returns 'male' or 'female'
   - `firstName(gender)` - returns a random common first name, gender is optional
   - `lastName()` - returns a random common last name
