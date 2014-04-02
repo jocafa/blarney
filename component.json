@@ -1,0 +1,10 @@
+{
+  "name": "blarney",
+  "version": "0.1.4",
+	"description": "Create repeatable random information",
+  "repo": "jocafa/blarney",
+  "main": "blarney.js",
+  "scripts": [
+    "blarney.js"
+  ]
+}
