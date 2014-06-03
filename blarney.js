@@ -180,9 +180,9 @@
   Blarney.prototype.portrait = function (gender) {
     gender = gender || this.gender();
     var
-    urlroot = ((typeof window != 'undefined') ? window.location.protocol : 'http:') + '//flic.kr/p/img/',
-    shortid = this.pick(DATA.portraits[gender]),
-    urlpartial = urlroot + shortid;
+      urlroot = 'https://flic.kr/p/img/',
+      shortid = this.pick(DATA.portraits[gender]),
+      urlpartial = urlroot + shortid;
 
     return {
       smallSquare: urlpartial + '_s.jpg',
